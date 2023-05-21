@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TikTok.Vistas.Reproductor.piePagina">
+
+    <Grid ColumnDefinitions="*,*,*,*,*"
+                 >
+        <StackLayout>
+            <Image Source="hogar.png" 
+                       Style="{StaticResource ImagePiePagina}"/>
+            <Label Text="Inicio"
+                       Style="{StaticResource lblPiePagina}"/>
+        </StackLayout>
+        <StackLayout Grid.Column="1">
+            <Image Source="hogar.png" 
+                       Style="{StaticResource ImagePiePagina}"/>
+            <Label Text="Tendencias"
+                       Style="{StaticResource lblPiePagina}"/>
+        </StackLayout>
+        <Grid HorizontalOptions="CenterAndExpand"
+              Grid.Column="2">
+            <BoxView BackgroundColor="#FF02A0"
+                         HeightRequest="48"
+                         WidthRequest="60"
+                         VerticalOptions="Start"
+                         CornerRadius="12"
+                         TranslationX="8"/>
+            <BoxView BackgroundColor="#00DFEF"
+                         HeightRequest="48"
+                         WidthRequest="60"
+                         VerticalOptions="Start"
+                         CornerRadius="12"
+                         TranslationX="-8"/>
+            <Button HeightRequest="48"
+                        WidthRequest="60"
+                        VerticalOptions="Start"
+                        BackgroundColor="White"
+                        CornerRadius="12"
+                        />
+            <Label Text="+"
+                       FontSize="35"
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center"/>
+        </Grid>
+        <StackLayout>
+            <Image Source="hogar.png" 
+                       Style="{StaticResource ImagePiePagina}"/>
+            <Label Text="Bandeja de entr."
+                       Style="{StaticResource lblPiePagina}"/>
+        </StackLayout>
+        <StackLayout>
+            <Image Source="hogar.png" 
+                       Style="{StaticResource ImagePiePagina}"/>
+            <Label Text="Perfil"
+                       Style="{StaticResource lblPiePagina}"/>
+        </StackLayout>
+        
+    </Grid>
+    
+</ContentView>

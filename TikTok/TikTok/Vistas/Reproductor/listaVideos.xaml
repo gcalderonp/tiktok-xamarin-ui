@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TikTok.Vistas.Reproductor.listaVideos"
+             xmlns:video="clr-namespace:Octane.Xamarin.Forms.VideoPlayer;assembly=Octane.Xamarin.Forms.VideoPlayer"
+             xmlns:vistas="clr-namespace:TikTok.Vistas.Reproductor">
+
+
+    <CarouselView ItemsSource="{Binding Lista}"
+                  x:Name="ListaVideos"
+                  >
+
+        <CarouselView.ItemsLayout>
+
+            <LinearItemsLayout Orientation="Vertical"
+                               SnapPointsAlignment="Center"
+                               SnapPointsType="MandatorySingle"/>
+
+        </CarouselView.ItemsLayout>
+
+        <CarouselView.ItemTemplate>
+            <DataTemplate>
+
+                <Grid>
+
+                    <video:VideoPlayer Source="{Binding video}"
+                                   AutoPlay="True"
+                                   Repeat="True"/>
+                    <StackLayout Orientation="Horizontal">
+
+                        <vistas:panelIzquierda HorizontalOptions="StartAndExpand"/>
+                        <vistas:panelDerecha/>
+                    </StackLayout>
+                    
+
+                    
+                    
+                </Grid>
+
+
+
+            </DataTemplate>
+        </CarouselView.ItemTemplate>
+
+    </CarouselView>
+
+    
+</ContentView>

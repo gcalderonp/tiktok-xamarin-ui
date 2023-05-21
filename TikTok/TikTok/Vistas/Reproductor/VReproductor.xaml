@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TikTok.Vistas.Reproductor.VReproductor"
+             xmlns:Vistas="clr-namespace:TikTok.Vistas.Reproductor">
+
+    
+    <Grid BackgroundColor="Black"
+          RowDefinitions="*, 70">
+
+        <Vistas:listaVideos />
+
+        <Vistas:encabezado VerticalOptions="Start"
+                     />
+
+        <Vistas:piePagina Grid.Row="1"
+                          Margin="27,5"/>
+
+
+
+    </Grid>
+    
+</ContentPage>

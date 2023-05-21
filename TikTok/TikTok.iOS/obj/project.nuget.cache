@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3hMfRwM6xy0DoXpisiEYQhWpcNsYe8Kz37cnQDfSCG/7GrESIqb9MjLN7Fkpn22S/pt1FACwD13IBL4Infz63g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\georg\\source\\repos\\TikTok\\TikTok\\TikTok.iOS\\TikTok.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\georg\\.nuget\\packages\\octane.xam.videoplayer\\3.1.0\\octane.xam.videoplayer.3.1.0.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\georg\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

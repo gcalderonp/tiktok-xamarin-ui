@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TikTok.Vistas.Reproductor.panelDerecha"
+             xmlns:vistas="clr-namespace:TikTok.Vistas.Reproductor">
+
+
+    <StackLayout VerticalOptions="End"
+                                 WidthRequest="50"
+                                 Spacing="30"
+                                 Margin="0,0,10,10">
+        <Grid>
+
+            <Frame WidthRequest="50" 
+                               HeightRequest="50"
+                               Padding="0"
+                               CornerRadius="30"
+                                   HorizontalOptions="End">
+                <Image Source="https://www.shutterstock.com/image-photo/smiling-brunette-woman-eyeglasses-posing-260nw-715061974.jpg"
+                                   Aspect="Fill"/>
+            </Frame>
+            <Grid HorizontalOptions="Center"
+                                  VerticalOptions="End"
+                                  TranslationY="14">
+                <Button HorizontalOptions="Center"
+                                    VerticalOptions="Center"
+                                    WidthRequest="24"
+                                    HeightRequest="24"
+                                    CornerRadius="12"
+                                    BackgroundColor="#FE2C55"/>
+
+                <Label Text="+"
+                                       VerticalOptions="Center"
+                                       FontSize="22"
+                                       HorizontalOptions="Center"
+                                       TextColor="White"/>
+            </Grid>
+
+
+        </Grid>
+        <StackLayout>
+            <Image Source="https://i.ibb.co/ZW9j2Z8/me-gusta.png"/>
+            <Label Text="1.2M"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="17"/>
+        </StackLayout>
+        <StackLayout>
+            <Image Source="https://i.ibb.co/D8x1NLf/chat-de-burbujas.png"/>
+            <Label Text="8.1K"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="17"/>
+        </StackLayout>
+        <StackLayout>
+            <Image Source="https://i.ibb.co/vHsH8Yv/compartir-1.png"/>
+            <Label Text="3.9.k"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontAttributes="Bold"
+                                   FontSize="17"/>
+        </StackLayout>
+
+        <vistas:discoGiratorio />
+
+    </StackLayout>
+    
+    
+</ContentView>

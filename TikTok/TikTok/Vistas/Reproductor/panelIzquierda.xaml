@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TikTok.Vistas.Reproductor.panelIzquierda">
+
+
+    <StackLayout VerticalOptions="End"
+                 Margin="15">
+        <Grid>
+            <BoxView BackgroundColor="Black"
+                     CornerRadius="5"
+                     Opacity="0.5"/>
+            <StackLayout Orientation="Horizontal"
+                         Margin="5">
+                <Frame HeightRequest="25"
+                       WidthRequest="25"
+                       Padding="0"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       CornerRadius="3"
+                       HasShadow="False">
+                    <Image Source="https://www.scdn.co/i/_global/open-graph-default.png"
+                       Aspect="Fill"/>
+                </Frame>
+                <Label Text="Take an unwind breath"
+                       TextColor="White"
+                       VerticalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+        <Label Text="@codigo"
+               TextColor="White"
+               FontAttributes="Bold"
+               FontSize="18"/>
+        <Label Text="descripcion del videocrcrevgrebrsrhergergrrgrgsegeorge"
+               TextColor="White"
+               FontSize="18"/>
+        <StackLayout Orientation="Horizontal">
+            <Image Source="https://i.ibb.co/w74mB9n/musica.png"
+                   HeightRequest="18"/>
+            <Label Text="Original Sound - @codigo"
+               TextColor="White"
+               FontSize="18"/>
+        </StackLayout>
+    </StackLayout>
+
+
+</ContentView>
